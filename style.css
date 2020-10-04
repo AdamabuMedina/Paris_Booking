@@ -1,0 +1,90 @@
+@font-face {
+   font-family: "Montserrat Regular";
+   src: url("fonts/Montserrat-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Montserrat Medium";
+   src: url("fonts/Montserrat-Medium.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Montserrat Bold";
+   src: url("fonts/Montserrat-ExtraBold.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Montserrat Regular";
+   font-size: 16px;
+}
+
+body {
+   background-color: #333;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style-type: none;
+}
+
+.btn {
+   width: 120px;
+   height: 40px;
+   font-weight: 500;
+   line-height: 26px;
+   background-color: transparent;
+   border: 1px solid #fff;
+   border-radius: 5px;
+   color: #fff;
+}
+
+.container {
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.header-block {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header {
+   padding-top: 29px;
+}
+
+.header-logo {
+   font-weight: 700;
+   font-size: 24px;
+   color: #fff;
+}
+
+.header-nav {
+   margin-left: 32px;
+}
+
+.header-left {
+   display: flex;
+   align-items: center;
+}
+
+.header-link {
+   display: flex;
+}
+
+.header-links {
+   margin-right: 25px;
+   color: #fff;
+}
