@@ -75,7 +75,9 @@ ul {
 }
 
 .container {
-  width: 1110px;
+  width: 100%px;
+  max-width: 1130px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 
@@ -447,4 +449,57 @@ ul {
   display: inline-block;
   margin-top: 20px;
   color: #ff4b64;
+}
+
+@media (max-width: 1024px) {
+  .first__form {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__nav {
+    display: none;
+  }
+
+  .flights__table {
+    overflow-x: scroll;
+  }
+
+  .flights__table table {
+    width: 748px;
+  }
+
+  .hotels__items {
+    text-align: center;
+  }
+
+  .hotels__item {
+    width: 48%;
+    margin-right: 4% !important;
+  }
+
+  .hotels__item:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+  .hotels__text {
+    text-align: left;
+  }
+
+  .footer__column {
+    width: 50%;
+    margin-bottom: 3px;
+  }
+
+  .footer__column:nth-child(2) {
+    width: 50%;
+  }
+
+  .footer__column:nth-child(3) {
+    width: 50%;
+  }
+
+  .footer__column:last-child {
+    width: 50%;
+  }
 }
